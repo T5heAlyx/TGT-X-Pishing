@@ -43,7 +43,7 @@ echo -e '\\e[31;40;1m
    \e[36m                                             İletişim && Sosyal Medya
    \e[31m                                         ###############################
        \e[37m      Coder:  Alyx   	            \e[31m| Youtube:  ♛\e[32m Turkish Guy Tim\e[31m ♛
-    \e[31m     /♛ Turkish Guy Tim ♛\             \e[31m| Web Site: ♛\e[32m Turkish Guy Tim\e[31m ♛
+    \e[31m     /♛ Turkish Guy Tim ♛\             \e[31m| Web Site: ♛ \e[32m Turkish Guy Tim\e[31m ♛
                                             \e[31m| Discord:  ♛\e[32m  .gg/e8ruugKW\e[31m   ♛
        \e[33m TGT X Pishing Tool V1.0        \e[31m	    ###############################	 	
 '
