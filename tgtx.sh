@@ -59,10 +59,9 @@ echo -e '
 '
 read -p  "| Numara Seçiniz:" islem
 }
+
+
 banner
-
-
-
 if [[ $islem == 1 || $islem == 01 ]]; then
 	sleep 1
 	clear
@@ -110,4 +109,5 @@ else
 	sleep 1
 	clear 
 	banner
+	bash tgtx.sh
 fi
