@@ -13,6 +13,8 @@ mv -v ngrok /data/data/com.termux/files/usr/bin
 cd  Site/Instagram/Instagram-bruteforce/
 pip install -r requirements.txt
 python2 install.py install
+npm install ngrok 
+npm install ngrok -g
 termux-open-url https://www.youtube.com/channel/UCXspb19nmlqMkuakJklcqsw
 clear
 echo -e '\033[36;40;1m 			Kurulum Tamamlandı!
