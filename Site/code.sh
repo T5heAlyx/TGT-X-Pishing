@@ -101,7 +101,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Mail/Site-hotmail/hotmail.txt"
 
-elif [[ $islem == "zula" ]]; then
+elif [[ $islem == "wolfteam" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
@@ -109,7 +109,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Game/Site-wolfteam/wolfteam.txt"
 
-elif [[ $islem == "lol" ]]; then
+elif [[ $islem == "legend" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor."
@@ -125,7 +125,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Game/Site-pubg/pubg.txt"
 
-elif [[ $islem == "wolfteam" ]]; then
+elif [[ $islem == "zula" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
@@ -133,7 +133,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Game/Site-zula/zula.txt"
 
-elif [[ $islem == "legend" ]]; then
+elif [[ $islem == "lol" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
