@@ -89,5 +89,5 @@ echo ""
 echo -e "\e[31m Girdiğiniz İşlem Numarasını Kontrol Ediniz...."
 sleep 3
 clear
-bash start.sh
+bash Game.sh
 fi
