@@ -141,7 +141,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Game/Site-lol/lol.txt"
 
-if [[ $islem == "Q" || $islem == "q" ]]; then
+elif [[ $islem == "Q" || $islem == "q" ]]; then
 cd ..
 bash tgtx.sh
 
