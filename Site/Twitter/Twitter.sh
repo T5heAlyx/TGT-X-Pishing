@@ -60,5 +60,5 @@ echo ""
 echo -e "\e[31m Lütfen Girdiğiniz İşlem Numarasını Kontrol Edin...."
 sleep 3
 clear
-bash start.sh
+bash Twitter.sh
 fi
