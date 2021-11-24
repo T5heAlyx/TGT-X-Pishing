@@ -66,5 +66,5 @@ else
 	echo -e '\033[31;40;1m Lütfen İşlem Numaranızı Kontrol Edin'
 	sleep 2
 	clear
-	bash start.sh
+	bash instagram.sh
 fi
