@@ -85,7 +85,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Mail/Site-gmail/gmail.txt"
 
-elif [[ $islem == "hotmail" ]]; then
+elif [[ $islem == "yandex" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor.."
@@ -93,7 +93,7 @@ sleep 2
 echo -e "\e[37m"
 cat "Mail/Site-yandex/yandex.txt"
 
-elif [[ $islem == "yandex" ]]; then
+elif [[ $islem == "hotmail" ]]; then
 sleep 1
 echo ""
 echo -e "\e[33mVeriler Yükleniyor..."
